@@ -1,6 +1,7 @@
 import 'package:app/view/core/function/get_other_auth.dart';
 import 'package:app/view/core/function/get_text.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 Column getOurContinueWithGoogleAndFacebook() {
   return Column(
@@ -13,8 +14,8 @@ Column getOurContinueWithGoogleAndFacebook() {
         fontWeight: FontWeight.w300,
         lable: '- OR Continue with -',
       ),
-      const SizedBox(
-        height: 20,
+      SizedBox(
+        height: 20.h,
       ),
       Row(
         mainAxisSize: MainAxisSize.min,
@@ -23,8 +24,8 @@ Column getOurContinueWithGoogleAndFacebook() {
             logoAuth: 'assets/google-1.jpg',
             nameAuth: 'Google',
           ),
-          const SizedBox(
-            width: 10,
+          SizedBox(
+            width: 10.w,
           ),
           getOtherAuth(
             logoAuth: 'assets/facebook2.png',

@@ -1,7 +1,7 @@
-
 import 'package:app/view/widget/card_signin.dart';
 import 'package:flutter/material.dart';
 import 'package:app/view/widget/title_scation.dart';
+
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});

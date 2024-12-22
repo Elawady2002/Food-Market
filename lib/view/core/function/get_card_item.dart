@@ -1,4 +1,3 @@
-
 import 'package:app/view/core/function/get_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';

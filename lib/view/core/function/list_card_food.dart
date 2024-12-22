@@ -17,7 +17,7 @@ SizedBox getListOfCrad() {
                 ? const EdgeInsets.only(top: 8, left: 8, right: 20, bottom: 8)
                 : const EdgeInsets.all(8),
             child: Container(
-              alignment: Alignment.topCenter,
+            alignment: Alignment.center,
               width: 210,
               height: 220,
               decoration: ShapeDecoration(
@@ -29,7 +29,6 @@ SizedBox getListOfCrad() {
                     color: Color(0xFFF2F2F2),
                     blurRadius: 15,
                     offset: Offset(0, 6),
-                    spreadRadius: 0,
                   ),
                 ],
               ),

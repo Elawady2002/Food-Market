@@ -4,6 +4,7 @@ import 'package:app/view/core/function/or_continue_with.dart';
 import 'package:app/view/widget/custom_bottom.dart';
 import 'package:app/view/widget/custom_text_form_flied.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CardSignin extends StatelessWidget {
   const CardSignin({super.key});
@@ -12,7 +13,7 @@ class CardSignin extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 26),
+        padding: EdgeInsets.symmetric(vertical: 26),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -26,19 +27,19 @@ class CardSignin extends StatelessWidget {
             ),
             const CustomTextFormFlied(
                 lable: 'Password', hint: 'Type your password'),
-            const SizedBox(
+           const  SizedBox(
               height: 24,
             ),
             const CustomBottom(lable: 'Sign In'),
-            const SizedBox(
+            SizedBox(
               height: 12,
             ),
             getforgetpassword(),
-            const SizedBox(
+            SizedBox(
               height: 24,
             ),
             getOurContinueWithGoogleAndFacebook(),
-            const SizedBox(
+            SizedBox(
               height: 24,
             ),
             getCreateAnAccount(
